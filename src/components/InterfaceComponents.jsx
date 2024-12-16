@@ -5,22 +5,22 @@ function InterfaceComponents() {
         <>
 
 
-            <div class="container-fluid px-5 pt-5 bg-light-subtle">
-                <div class="interfaceComponent-section">
-                    <h1 class="fw-bold">Create user interfaces <br /> from components</h1>
-                    <p class="text-muted text-light-emphasis">
+            <div className="container-fluid px-5 pt-5 bg-light-subtle">
+                <div className="interfaceComponent-section">
+                    <h1 className="fw-bold">Create user interfaces <br /> from components</h1>
+                    <p className="text-muted text-light-emphasis">
                         React lets you build user interfaces out of individual pieces called components.<br />
                         Create your own React components like <code>Thumbnail</code>, <code>LikeButton</code>, and <code>Video</code>.
                     </p>
                 </div>
 
 
-                <div class="row justify-content-center align-items-center">
+                <div className="row justify-content-center align-items-center">
 
-                    <div class="col-md-6 px-0">
-                        <div class="code-section">
-                            <div class='bg-body-secondary px-4 p-2 rounded-top'>Video.js </div>
-                            <pre class="code px-4 p-5 rounded-pill">
+                    <div className="col-md-6 px-0">
+                        <div className="code-section">
+                            <div className='bg-body-secondary px-4 p-2 rounded-top'>Video.js </div>
+                            <pre className="code px-4 p-5 rounded-pill">
 
                                 {`function Video({ video }) {
   return (
@@ -42,18 +42,18 @@ function InterfaceComponents() {
                     </div>
 
 
-                    <div class="as h-100 p-5 col-md-6 rounded-end  d-flex align-items-center justify-content-center">
-                        <div class="highlight-box">
-                            <div class="video-card">
-                                <div class="video-icon">
-                                    <i class="bi bi-play-fill fs-3"></i>
+                    <div className="as h-100 p-5 col-md-6 rounded-end  d-flex align-items-center justify-content-center">
+                        <div className="highlight-box">
+                            <div className="video-card">
+                                <div className="video-icon">
+                                    <i className="bi bi-play-fill fs-3"></i>
                                 </div>
                                 <div>
-                                    <p class="mb-0 fw-bold">My video</p>
-                                    <p class="text-muted">Video description</p>
+                                    <p className="mb-0 fw-bold">My video</p>
+                                    <p className="text-muted">Video description</p>
                                 </div>
-                                <div class="heart-icon">
-                                    <i class="bi bi-heart"></i>
+                                <div className="heart-icon">
+                                    <i className="bi bi-heart"></i>
                                 </div>
                             </div>
                         </div>
@@ -61,8 +61,8 @@ function InterfaceComponents() {
                 </div>
 
 
-                <div class="text-center mt-4">
-                    <p class="text-muted text-light-emphasis">
+                <div className="text-center mt-4">
+                    <p className="text-muted text-light-emphasis">
                         Whether you work on your own or with thousands of other developers, using React feels the same.
                         It is designed to let you seamlessly combine components written by independent people, teams, and organizations.
                     </p>
