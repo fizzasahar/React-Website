@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.main-section {
+  text-align: center;
+  padding: 90px 0;
+}
+
+.main-section,
+.interfaceComponent-section h1 {
+  font-size: 62px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.main-section,
+i p {
+  color: #6c757d;
+  font-size: 32px;
+}
+
+.btn-custom {
+  background-color: #036779;
+  color: white;
+
+
+}
+
+.btn-custom:hover {
+  color: white;
+  opacity: -50px;
+  background-color: #15acc7;
+}
+
+/* ... */
+.form {
+  position: relative;
+}
+
+.form .bi-search {
+
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: #9ca3af;
+
+}
+
+.form span {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  padding-left: 3px;
+  border-left: 1px solid #d1d5db;
+
+}
+
+.btn {
+  font-size: smaller;
+}
+
+.form-input {
+  height: 40px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none;
+}
+
+/* ... */
+
+.interfaceComponent-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.highlight-box {
+  background: linear-gradient(90deg, #f8f9fa, #dfeffe);
+  border-radius: 10px;
+  padding: 3rem;
+  margin: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.as {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.code-section {
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.code {
+  white-space: pre-wrap;
+}
+
+.video-card {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-icon {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.text-muted {
+  font-size: 23px;
+}
+
+.heart-icon {
+  margin-left: auto;
+  color: #aaa;
+}
