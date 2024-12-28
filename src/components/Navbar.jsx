@@ -6,7 +6,7 @@ function Navbar() {
             <nav className="navbar navbar-light ">
                 <div className="container-fluid">
                     <a className="navbar-brand fs-6 link-primary link-secondary" href="#">
-                        <img src="./src/assets/logo_light.svg" alt="React Logo" /> v19
+                        <img src="../../public/logo_light.svg" alt="React Logo" /> <a href="" className='text-dark mx-1 fs-6 text-body-secondary link-primary link-underline-light'>v19</a>
                     </a>
 
 
@@ -23,7 +23,7 @@ function Navbar() {
                     <a href="#" className="text-dark mx-2 fs-6 text-body-secondary link-primary link-underline-light">Community</a>
                     <a href="#" className="text-dark mx-2 fs-6 text-body-secondary link-primary link-underline-light">Blog</a>
                     <h3 className="bi bi-moon"></h3>
-                    <img src="src/assets/translate.svg" alt="" className="fs-4" />
+                    <img src="../../public/translate.svg" alt="" className="fs-4" />
                     <h3 className="bi bi-github"></h3>
 
                 </div>
