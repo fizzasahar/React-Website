@@ -13,9 +13,13 @@ body {
   padding: 90px 0;
 }
 
-.main-section,
+.main-section h1{
+  font-size: 60px;
+  color: #1f1e1e;
+}
 .interfaceComponent-section h1 {
-  font-size: 62px;
+  font-size: 56px;
+  line-height: 100%;
   margin: 20px 0;
   color: #333;
 }

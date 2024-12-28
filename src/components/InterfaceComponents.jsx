@@ -1,17 +1,17 @@
 import React from 'react'
 
-function InterfaceComponents() {
+function InterfaceComponents({ heading, para, lpara }) {
     return (
         <>
 
 
             <div className="container-fluid px-5 pt-5 bg-light-subtle">
                 <div className="interfaceComponent-section">
-                    <h1 className="fw-bold">Create user interfaces <br /> from components</h1>
-                    <p className="text-muted text-light-emphasis">
-                        React lets you build user interfaces out of individual pieces called components.<br />
-                        Create your own React components like <code>Thumbnail</code>, <code>LikeButton</code>, and <code>Video</code>.
-                    </p>
+                    <br />
+                    <h1>{heading}</h1><br />
+                    <p className="text-muted text-light-emphasis fs-5">
+                        {para}
+                    </p><br />
                 </div>
 
 
@@ -45,14 +45,14 @@ function InterfaceComponents() {
                     <div className="as h-100 p-5 col-md-6 rounded-end  d-flex align-items-center justify-content-center">
                         <div className="highlight-box">
                             <div className="video-card">
-                                <div className="video-icon">
+                                <div className="video-icon mx-3">
                                     <i className="bi bi-play-fill fs-3"></i>
                                 </div>
-                                <div>
-                                    <p className="mb-0 fw-bold">My video</p>
-                                    <p className="text-muted">Video description</p>
+                                <div className='me-5'>
+                                    <p className="mb-0 fw-bold fs-5">My video</p>
+                                    <p className="text-muted fs-6 mx-1">Video description</p>
                                 </div>
-                                <div className="heart-icon">
+                                <div className="heart-icon mx-2 mt-3">
                                     <i className="bi bi-heart"></i>
                                 </div>
                             </div>
@@ -60,13 +60,13 @@ function InterfaceComponents() {
                     </div>
                 </div>
 
-
+                <br />
                 <div className="text-center mt-4">
-                    <p className="text-muted text-light-emphasis">
-                        Whether you work on your own or with thousands of other developers, using React feels the same.
-                        It is designed to let you seamlessly combine components written by independent people, teams, and organizations.
+                    <p className="text-muted text-light-emphasis fs-5"><br />
+                        {lpara}
                     </p>
                 </div>
+                <br />
             </div>
 
 
