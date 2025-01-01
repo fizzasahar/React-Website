@@ -4,9 +4,9 @@ function Navbar() {
     return (
         <>
             <nav className="navbar navbar-light ">
-                <div className="container-fluid">
+                <div className="container-fluid position-fixed top-0 bg-white pt-2 px-4">
                     <a className="navbar-brand fs-6 link-primary link-secondary" href="#">
-                        <img src="../../public/logo_light.svg" alt="React Logo" /> <a href="" className='text-dark mx-1 fs-6 text-body-secondary link-primary link-underline-light'>v19</a>
+                        <img src="/logo_light.svg" alt="React Logo" /> <a href="" className='text-dark mx-1 fs-6 text-body-secondary link-primary link-underline-light'>v19</a>
                     </a>
 
 
@@ -23,7 +23,7 @@ function Navbar() {
                     <a href="#" className="text-dark mx-2 fs-6 text-body-secondary link-primary link-underline-light">Community</a>
                     <a href="#" className="text-dark mx-2 fs-6 text-body-secondary link-primary link-underline-light">Blog</a>
                     <h3 className="bi bi-moon"></h3>
-                    <img src="../../public/translate.svg" alt="" className="fs-4" />
+                    <img src="/translate.svg" alt="" className="fs-4" />
                     <h3 className="bi bi-github"></h3>
 
                 </div>

@@ -7,6 +7,7 @@ import InterfaceComponents from './components/InterfaceComponents.jsx'
 import Navbar from './components/Navbar.jsx'
 import SearchableVideoList from './components/SearchableVideoList.jsx'
 
+
 function App() {
   return (
     <>
@@ -15,9 +16,9 @@ function App() {
       <InterfaceComponents
         heading={
           <>
-          Create user interfaces <br />
-          from components
-        </>}
+            Create user interfaces <br />
+            from components
+          </>}
         para={
           <>
             React lets you build user interfaces out of individual pieces called components.<br />
@@ -33,9 +34,11 @@ function App() {
       />
 
       <InterfaceComponents
-        heading={<>
-          Write components <br /> with code and markup
-        </>}
+        heading={
+          <>
+            Write components <br /> with code and markup
+          </>
+        }
         para={
           <>
             React components are JavaScript functions. Want to show some content <br /> conditionally? Use an if statement. Displaying a list? Try array <code>map()</code>. Learning <br /> React is learning programming.
@@ -46,8 +49,10 @@ function App() {
             This markup syntax is called JSX. It is a JavaScript syntax extension popularized <br /> by React. Putting JSX markup close to related rendering logic makes React <br />components easy to create, maintain, and delete.
           </>
         }
+        
       />
       <SearchableVideoList />
+
     </>
   )
 }

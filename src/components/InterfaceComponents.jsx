@@ -5,7 +5,7 @@ function InterfaceComponents({ heading, para, lpara }) {
         <>
 
 
-            <div className="container-fluid px-5 pt-5 bg-light-subtle">
+            <div className="container-fluid px-5 pt-5 bg-light">
                 <div className="interfaceComponent-section">
                     <br />
                     <h1>{heading}</h1><br />
@@ -17,10 +17,10 @@ function InterfaceComponents({ heading, para, lpara }) {
 
                 <div className="row justify-content-center align-items-center">
 
-                    <div className="col-md-6 px-0">
-                        <div className="code-section">
-                            <div className='bg-body-secondary px-4 p-2 rounded-top'>Video.js </div>
-                            <pre className="code px-4 p-5 rounded-pill">
+                    <div className="col-md-6 px-0 ">
+                        <div className="code-section rounded border border-dark-subtle">
+                            <div className='bg-light border px-4 p-2 rounded-top '>Video.js </div>
+                            <pre className="code p-3 fs-6 lh-lg rounded-bottom ">
 
                                 {`function Video({ video }) {
   return (
@@ -42,8 +42,8 @@ function InterfaceComponents({ heading, para, lpara }) {
                     </div>
 
 
-                    <div className="as h-100 p-5 col-md-6 rounded-end  d-flex align-items-center justify-content-center">
-                        <div className="highlight-box">
+                    <div className="as col-md-6 rounded-end border border-dark-subtle d-flex align-items-center justify-content-center">
+                        <div className="highlight-box w-100">
                             <div className="video-card">
                                 <div className="video-icon mx-3">
                                     <i className="bi bi-play-fill fs-3"></i>
@@ -52,8 +52,8 @@ function InterfaceComponents({ heading, para, lpara }) {
                                     <p className="mb-0 fw-bold fs-5">My video</p>
                                     <p className="text-muted fs-6 mx-1">Video description</p>
                                 </div>
-                                <div className="heart-icon mx-2 mt-3">
-                                    <i className="bi bi-heart"></i>
+                                <div className="heart-icon">
+                                    <h3 class="bi bi-suit-heart mx-3"></h3>
                                 </div>
                             </div>
                         </div>
@@ -68,9 +68,6 @@ function InterfaceComponents({ heading, para, lpara }) {
                 </div>
                 <br />
             </div>
-
-
-
 
 
         </>

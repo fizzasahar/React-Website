@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
     <section className="main-section"><br />
-        <img src="../../public/logo_light.svg" alt="React Logo" width="100"/>
+        <img src="/logo_light.svg" alt="React Logo" width="100"/>
         <h1>React</h1>
         <p className='fw-medium'>The library for web and native user interfaces</p>
         <div>
