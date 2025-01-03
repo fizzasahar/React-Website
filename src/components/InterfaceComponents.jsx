@@ -1,6 +1,8 @@
 import React from 'react'
 
-function InterfaceComponents({ heading, para, lpara }) {
+function InterfaceComponents({ heading, para, lpara, code, hCode, videoCard, lastButton ,scrollDiv}) {
+
+
     return (
         <>
 
@@ -18,23 +20,11 @@ function InterfaceComponents({ heading, para, lpara }) {
                 <div className="row justify-content-center align-items-center">
 
                     <div className="col-md-6 px-0 ">
-                        <div className="code-section rounded border border-dark-subtle">
-                            <div className='bg-light border px-4 p-2 rounded-top '>Video.js </div>
-                            <pre className="code p-3 fs-6 lh-lg rounded-bottom ">
+                        <div className="code-section rounded-4 border border-dark-subtle">
+                            <div className='bg-light border px-4 p-2 rounded-top-4 '>{hCode} </div>
+                            <pre className="code p-3 fs-6  rounded-bottom-4 ">
 
-                                {`function Video({ video }) {
-  return (
-    <div>
-      <Thumbnail video={video} />
-      <a href={video.url}>
-        <h3>{video.title}</h3>
-        <p>{video.description}</p>
-      </a>
-      <LikeButton video={video} />
-    </div>
-  );
-}
-                                `}
+                                {code}
 
 
                             </pre>
@@ -42,21 +32,11 @@ function InterfaceComponents({ heading, para, lpara }) {
                     </div>
 
 
-                    <div className="as col-md-6 rounded-end border border-dark-subtle d-flex align-items-center justify-content-center">
-                        <div className="highlight-box w-100">
-                            <div className="video-card">
-                                <div className="video-icon mx-3">
-                                    <i className="bi bi-play-fill fs-3"></i>
-                                </div>
-                                <div className='me-5'>
-                                    <p className="mb-0 fw-bold fs-5">My video</p>
-                                    <p className="text-muted fs-6 mx-1">Video description</p>
-                                </div>
-                                <div className="heart-icon">
-                                    <h3 class="bi bi-suit-heart mx-3"></h3>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="as pt-5 pb-5 col-md-6 rounded-end-4 border border-dark-subtle d-flex align-items-center justify-content-center">
+                        {videoCard}
+                        {scrollDiv}
+
+
                     </div>
                 </div>
 
@@ -67,6 +47,7 @@ function InterfaceComponents({ heading, para, lpara }) {
                     </p>
                 </div>
                 <br />
+                <div className='d-flex justify-content-center align-items-center mb-5 pb-5'>{lastButton} </div>
             </div>
 
 

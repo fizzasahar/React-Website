@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar navbar-light ">
-                <div className="container-fluid position-fixed top-0 bg-white pt-2 px-4">
+                <div className="container-fluid position-fixed top-0 bg-white pt-2 pb-2 px-4">
                     <a className="navbar-brand fs-6 link-primary link-secondary" href="#">
                         <img src="/logo_light.svg" alt="React Logo" /> <a href="" className='text-dark mx-1 fs-6 text-body-secondary link-primary link-underline-light'>v19</a>
                     </a>
